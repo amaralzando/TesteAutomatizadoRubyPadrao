@@ -1,0 +1,12 @@
+---
+default: --publish-quiet --profile pretty -p dev -p chrome
+pretty: --format pretty
+progress: --format progress
+dev: AMBIENTE=dev
+hml: AMBIENTE=hml
+prod: AMBIENTE=prod
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+edge: BROWSER=edge
+opera: BROWSER=opera
+safari: BROWSER=safari
