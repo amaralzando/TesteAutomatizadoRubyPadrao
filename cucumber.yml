@@ -1,12 +1,14 @@
 ---
-default: --publish-quiet --profile pretty -p dev -p chrome
+default: --publish-quiet --profile pretty -p dev -p chrome -p html
 pretty: --format pretty
 progress: --format progress
+html: --format html --out=reports/relatorio.html
 dev: AMBIENTE=dev
 hml: AMBIENTE=hml
 prod: AMBIENTE=prod
 chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
 firefox: BROWSER=firefox
 edge: BROWSER=edge
 opera: BROWSER=opera
-safari: BROWSER=safari
+safari: BROWSER=safar
